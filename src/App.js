@@ -1,11 +1,12 @@
-import "./styles.css";
-import { useEffect, useState, useTransition } from "react";
-import CircularProgress from "@mui/material/CircularProgress";
+import './styles.css';
+import React, { useState, useTransition } from 'react';
+import CircularProgress from '@mui/material/CircularProgress';
 
 export default function App() {
   const [value, setValue] = useState(0);
   const [value2, setValue2] = useState(100000);
   const [isPending, startTransition] = useTransition();
+
 
   const InterfaceSlow = ({ value }) => (
     <>
