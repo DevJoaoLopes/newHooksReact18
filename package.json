@@ -1,7 +1,7 @@
 {
-  "name": "react",
+  "name": "newhooks",
   "version": "1.0.0",
-  "description": "React example starter project",
+  "description": "React project for new hooks in version react 18",
   "keywords": [
     "react",
     "starter"
