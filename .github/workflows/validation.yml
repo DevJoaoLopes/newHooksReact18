@@ -20,7 +20,7 @@ jobs:
         node-version: ${{ matrix.node-version }}
 
     - name: Install Dependencies
-      run: yarn
+      run: yarn install --frozen-lockfile
 
     - name: Lint Code
       run: yarn lint
